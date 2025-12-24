@@ -4,7 +4,7 @@
 #define MAX_STUDENTS 100
 #define MAX_QUESTIONS 50
 
-int score(const char *studentAnswers, const char *key) { //Oluşturduğumuz score fonksiyonu doğru cevap sayısının döndürür.
+int score( char *studentAnswers,  char *key) { //Oluşturduğumuz score fonksiyonu doğru cevap sayısının döndürür.
     int correct = 0;
     int uz = strlen(key);
 
